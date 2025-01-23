@@ -30,16 +30,19 @@ La organización de archivos es la siguiente:
 root/
 ├── index.html           # Página principal del proyecto
 ├── css/
-│   └── styles.css       # Archivo principal de estilos
+│   └── desktop.css       # Archivo principal de estilos para escritorio
+|   └── paleta.css  # Paleta de colores principal
 ├── js/
 │   └── # Archivo principal de JavaScript (futuro)
 └── images/
     └── FotosRelleno/            # Recursos gráficos e imágenes
+    └── Usuarios/                # Carpeta de PFP de usuarios
+    └── VehiculosCabify          # Fotos de Recursos para la web
 ```
 
 ## Organización de los estilos mediaquery
 
-- El archivo de **style.css** solo contiene los colores y decoraciones que no afecten al tamaño de los objetos de la página.
+- Se crearán 3 archivos distintos, cada archivo será para cada uno de los tamaños distintos de mediaquery, esto se debe a que me parece mas optimo tener todo los archivos separados por dispositivo
 - Los demás archivos CSS serán para los diferentes estilos de dispositivos según el tamaño del ancho de la misma.
 
 ## Objetivos de Aprendizaje
