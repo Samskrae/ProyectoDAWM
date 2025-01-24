@@ -55,9 +55,6 @@
     border-radius: 45%;
     transition: background-color 0.3s ease;
   }
-  .navButton:hover {
-    background-color: #dbc5f3;
-  }
   .navButton p {
     display: none;
   }
@@ -96,13 +93,6 @@
     font-weight: bold;
     border: 0 solid transparent;
     border-radius: 15px;
-  }
-  #bienvenidaButton:hover {
-    background-color: #9154d9;
-    color: white;
-    animation: rebote 0.5s;
-    transform: scale(1.1);
-    cursor: pointer;
   }
 
   .BienvenidaButton2 {
@@ -175,17 +165,13 @@
     flex-wrap: wrap;
   }
   .saberMas {
-    transition: background-color 0.3s ease;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10%;
     font-weight: bold;
     border: 0 solid transparent;
     border-radius: 15px;
     font-size: 1em;
-    cursor: pointer;
-  }
-  .saberMas:hover {
-    background-color: #dbc5f3;
+    width: 100%;
   }
 
   /* Descargar App */
@@ -203,13 +189,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5%;
-    width: 75%;
-
+    width: 90%;
     background-color: #c7a3e9;
     margin: 50px;
     border-radius: 25px;
-    min-height: 100%;
+    min-height: 30vh;
   }
   .cuadroDescarga img {
     width: 50%;
@@ -217,7 +201,6 @@
 
   .areaTexto {
     width: 65%;
-    /* color: white; */
     margin-left: 100px;
     text-align: justify;
   }
@@ -225,13 +208,13 @@
     font-size: 3vw;
     color: black;
     text-align: left;
-    margin-bottom: 20px;
-    word-spacing: 0.2em;
+    margin-bottom: 2px;
   }
   .areaTexto p {
     max-height: 10em;
     line-height: 1em;
     overflow: hidden;
+    font-size: 2vw;
   }
 
   .areaTexto a {
@@ -244,9 +227,8 @@
     color: #fff;
     transition: background-color 0.3s;
   }
-
   .botonesDescargar {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     gap: 10px;
   }
@@ -263,30 +245,24 @@
     font-size: 30px;
   }
 
-  .areaTexto a:hover {
-    opacity: 0.8;
-  }
-
   /* Opiniones */
-  .sectionOpiniones {
-    margin: 100px 50px 100px 100px;
-  }
+
   .sectionOpiniones h2 {
-    margin: 2% 5%;
+    margin: 5% 5%;
   }
 
   .opiniones {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 2%;
     color: black;
-    width: 100%;
+    padding: 0px 20px;
   }
 
   .opinion {
     padding: 25px;
-    width: 40%;
+    width: 90%;
     min-height: 11vh;
     height: auto;
     background-color: white;
@@ -294,7 +270,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-bottom: 2%;
+    margin: auto auto 2% auto;
   }
   .opinion img {
     width: 65px;
@@ -327,7 +303,7 @@
     height: auto;
   }
   .footerImg img {
-    width: 25%;
+    width: 50%;
   }
   .rrss {
     color: white;
@@ -348,6 +324,7 @@
   }
   .areaTextoFooter li {
     list-style-type: none;
+    margin-bottom: 10px;
   }
   .areaTextoFooter a {
     color: #b281e2;
