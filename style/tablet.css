@@ -1,17 +1,4 @@
-@media (min-width: 993px) {
-  /* Animaciones */
-  @keyframes rebote {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1.1);
-    }
-  }
-
+@media only screen and (min-width: 600px) and (max-width: 992px) {
   /* Reset */
   * {
     margin: 0;
@@ -51,34 +38,27 @@
     height: 100%;
     font-size: 20px;
     font-weight: bold;
-    gap: 55px;
+    gap: 20px;
   }
   .navLinks a {
     margin: 0 10px;
     text-decoration: none;
     color: white;
-    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease,
-      padding 0.3s ease;
     border-radius: 25px;
   }
-  .navLinks a:hover {
-    transform: scale(1.1);
-    background-color: white;
-    color: black;
-    padding: 5px;
-  }
+
   .navButton {
     padding: 15px;
     font-size: 20px;
     font-weight: bold;
     border: 0 solid transparent;
-    border-radius: 15px;
+    border-radius: 45%;
     transition: background-color 0.3s ease;
   }
   .navButton:hover {
     background-color: #dbc5f3;
   }
-  .navButton i {
+  .navButton p {
     display: none;
   }
 
@@ -99,14 +79,14 @@
   }
   .bienvenida h1 {
     font-size: 50px;
-    width: 50%;
+    width: 80%;
   }
   .bienvenida h3 {
     font-size: 20px;
     color: #5a5a5a;
   }
   .bienvenidaLogo {
-    width: 338px;
+    width: 25%;
   }
   #bienvenidaButton {
     width: 20%;
@@ -116,7 +96,6 @@
     font-weight: bold;
     border: 0 solid transparent;
     border-radius: 15px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
   }
   #bienvenidaButton:hover {
     background-color: #9154d9;
@@ -125,10 +104,10 @@
     transform: scale(1.1);
     cursor: pointer;
   }
-  .BienvenidaButton1 {
+
+  .BienvenidaButton2 {
     display: none;
   }
-
   /* Fondo Bienvenida */
   .fondo {
     display: flex;
@@ -148,35 +127,34 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     z-index: -1;
     border-radius: 15px;
   }
 
   /* Sugerencias */
-  .seccionSugerencias {
-    margin: 100px 50px 0px 100px;
-  }
   .seccionSugerencias h2 {
-    margin: 2% 5%;
+    margin: 5% 5%;
   }
   .sugerencias {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: black;
-    gap: 2%;
     align-items: stretch;
     text-align: left;
   }
   .sugerenciasContainer {
     padding: 25px;
-    width: 25%;
-    min-height: 11vh;
+    min-height: 1vh;
     height: auto;
     background-color: white;
     border-radius: 25px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
   }
   .sugerenciasLogo {
     width: 30%;
@@ -184,13 +162,14 @@
   }
   .texto {
     width: 70%;
-    font-size: 1em;
+    font-size: 1.3em;
     flex-grow: 1;
     overflow: hidden;
   }
   .texto h3 {
     margin-bottom: 10px;
   }
+  /* SEGUIR POR AQUI !!!! */
   .sugerenciasCard {
     display: flex;
     flex-wrap: wrap;

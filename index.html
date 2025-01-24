@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabify, moverte por la ciudad es el comienzo de todo.</title>
-    <link rel="stylesheet" href="style/desktop.css">
+
+    <link rel="stylesheet" href="style/desktop.css" media="only screen and (min-width: 993px)">
+    <link rel="stylesheet" href="style/tablet.css" media="only screen and (max-width: 992px) and (min-width: 600px)">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="images/LogoPestaña.jpg">
 </head>
@@ -20,7 +23,10 @@
             <a href="#">About Us</a>
             <a href="#">Contacto</a>
         </div>
-        <button class="navButton">Entrar</button>
+        <button class="navButton">
+            <p>Entrar</p>
+            <i class="fa-solid fa-right-to-bracket"></i>
+        </button>
     </nav>
 
     <!-- Bienvenida -->
@@ -29,7 +35,11 @@
         <h1>Moverte por la ciudad es el comienzo de todo.</h1>
         <h3>Cabify, tu mejor opción de transporte</h3>
         <div class="fondo">
-            <button id="bienvenidaButton">Regístrate ahora</button>
+            <button id="bienvenidaButton">
+                <div class="BienvenidaButton1"><i class="fa-solid fa-download"></i> Descargar</div>
+                <div class="BienvenidaButton2">Regístrate ahora</div>
+
+            </button>
         </div>
     </header>
 
@@ -48,7 +58,6 @@
                     <button class="saberMas">Saber más</button>
                 </div>
             </div>
-
             <!-- Sugerencia 2 -->
             <div class="sugerenciasContainer">
                 <div class="sugerenciasCard">
@@ -209,10 +218,12 @@
                     <li><a href="#">Recursos empresariales</a></li>
                     <li><a href="#">Tarifas de servicios</a></li>
                     <li><a href="#">Seguridad</a></li>
+
                 </ul>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
