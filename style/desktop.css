@@ -61,6 +61,9 @@
       padding 0.3s ease;
     border-radius: 25px;
   }
+  .navLinks a i {
+    display: none;
+  }
   .navLinks a:hover {
     transform: scale(1.1);
     background-color: white;
