@@ -192,7 +192,7 @@
     background-color: #c7a3e9;
     margin: 50px;
     border-radius: 25px;
-    height: 40vh;
+    height: 45vh;
   }
   .cuadroDescarga img {
     display: none;
@@ -200,7 +200,6 @@
 
   .areaTexto {
     width: 80%;
-
     text-align: justify;
   }
   .areaTexto h1 {

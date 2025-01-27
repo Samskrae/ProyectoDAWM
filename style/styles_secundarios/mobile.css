@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px) {
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Body Styles */
+  body {
+    background-image: linear-gradient(to bottom, #dbc5f3, #dbc5f3, #c7a3e9);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Barra de nav */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #a169de;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 25px 25px 0 0;
+    box-shadow: inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+  }
+  #navIcon {
+    display: none;
+  }
+  .navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 50px;
+  }
+  .navLinks a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 1.5em;
+  }
+  .navLinks a span {
+    display: none;
+  }
+
+  .navButton {
+    display: none;
+  }
+  .navButton p {
+    display: none;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 15px 100px 15px;
+    text-align: center;
+  }
+  .footerArea1 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footerImg {
+    width: 40%;
+    height: auto;
+  }
+  .footerImg img {
+    width: 50%;
+  }
+  .rrss {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    width: 60%;
+    font-size: 2em;
+  }
+  .rrss a {
+    color: #9154d9;
+  }
+  .areaTextoFooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+    gap: 10%;
+    font-size: 0.8em;
+  }
+  .areaTextoFooter li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .areaTextoFooter a {
+    color: #b281e2;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .areaTextoFooter a:hover {
+    color: #9154d9;
+    transform: scale(1.1);
+  }
+}

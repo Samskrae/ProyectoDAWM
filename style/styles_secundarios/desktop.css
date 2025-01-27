@@ -1,0 +1,186 @@
+@media (min-width: 993px) {
+  /* Animaciones */
+  @keyframes rebote {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Body Styles */
+  body {
+    /* background-image: linear-gradient(to bottom, #dbc5f3, #dbc5f3, #c7a3e9); */
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Barra de nav */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #a169de;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 0 0 25px 25px;
+    box-shadow: inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+  }
+  #navIcon {
+    height: 40px;
+  }
+  .navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 55px;
+  }
+  .navLinks a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease,
+      padding 0.3s ease;
+    border-radius: 25px;
+  }
+  .navLinks a i {
+    display: none;
+  }
+  .navLinks a:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    padding: 5px;
+  }
+  .navButton {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0 solid transparent;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  .navButton:hover {
+    background-color: #dbc5f3;
+  }
+  .navButton i {
+    display: none;
+  }
+
+  .video {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .TextoInicio {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .TextoInicio h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .TextoInicio h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  .primeraSeccion {
+    background-color: #dbc5f3;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 100px 15px;
+    text-align: center;
+  }
+  .footerArea1 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footerImg {
+    width: 35%;
+    height: auto;
+  }
+  .footerImg img {
+    width: 25%;
+  }
+  .rrss {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    width: 60%;
+    font-size: 2em;
+  }
+  .rrss a {
+    color: #9154d9;
+  }
+  .areaTextoFooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 20%;
+  }
+  .areaTextoFooter li {
+    list-style-type: none;
+  }
+  .areaTextoFooter a {
+    color: #b281e2;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .areaTextoFooter a:hover {
+    color: #9154d9;
+    transform: scale(1.1);
+  }
+}
