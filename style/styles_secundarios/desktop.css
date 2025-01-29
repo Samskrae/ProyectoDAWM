@@ -1,16 +1,4 @@
 @media (min-width: 993px) {
-  /* Animaciones */
-  @keyframes rebote {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1.1);
-    }
-  }
 
   /* Reset */
   * {
@@ -130,71 +118,76 @@
   .primeraSeccion {
     background-color: #dbc5f3;
   }
-.galeriaServicios{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
 
+  .primerTitulo{
+    margin-left: 9%;
+    padding-top: 50px;
+  }
 
-.galeriaServicios img{
-  width: 20%;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-  
-.imagenhover {
-  position: relative;
-  display: inline-block;
-  width: 20%;
-  transition: transform 0.3s ease;
-}
+  .galeriaServicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
 
-.imagenhover img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: filter 0.3s ease;
-  border-radius: 25px;
+  .galeriaServicios img{
+    width: 20%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+    
+  .imagenhover {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    transition: transform 0.3s ease;
+  }
 
-}
+  .imagenhover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease;
+    border-radius: 25px;
 
-.overlay2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); 
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0; 
-  transition: opacity 1s ease; 
-  border-radius: 25px;
-}
+  }
 
-.overlay2 p{
-  margin: 25px;
-  font-size: 1vw;
-  text-align: justify;
-}
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; 
+    transition: opacity 1s ease; 
+    border-radius: 25px;
+  }
 
-.imagenhover:hover img {
-  filter: brightness(50%) blur(5px);
-  
-}
+  .overlay2 p{
+    margin: 25px;
+    font-size: 1vw;
+    text-align: justify;
+  }
 
-.imagenhover:hover .overlay2 {
-  opacity: 1;
-}
-.imagenhover:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
+  .imagenhover:hover img {
+    filter: brightness(50%) blur(5px);
+    
+  }
+
+  .imagenhover:hover .overlay2 {
+    opacity: 1;
+  }
+  .imagenhover:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 
 
 

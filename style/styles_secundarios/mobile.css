@@ -59,6 +59,101 @@
     display: none;
   }
 
+  .video {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+  }
+  video {
+    width: 100%;
+    height: 35%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .TextoInicio {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .TextoInicio h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .TextoInicio h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+
+  /* Sección de imágenes */
+  .primeraSeccion {
+    background-color: #dbc5f3;
+  }
+  .primerTitulo{
+    margin-left: 9%;
+    padding-top: 50px;
+  }
+  .galeriaServicios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .imagenhover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  .imagenhover img {
+    padding: 10px;
+    width: 95%;
+    height: auto;
+    border-radius: 25px;
+
+  }
+
+  .overlay2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+  }
+
+  .overlay2 p{
+    margin: 25px;
+    font-size: 3vw;
+    text-align: justify;
+  }
+
+
+
+
   /* Footer */
   footer {
     background-color: #f2f2f2;
