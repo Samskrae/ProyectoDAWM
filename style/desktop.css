@@ -273,6 +273,7 @@
     margin-top: 50px;
     display: flex;
     gap: 10px;
+    font-weight: bold;
   }
   .appstore {
     background-color: #000;

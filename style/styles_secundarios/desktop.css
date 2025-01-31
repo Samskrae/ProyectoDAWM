@@ -1,5 +1,4 @@
 @media (min-width: 993px) {
-
   /* Reset */
   * {
     margin: 0;
@@ -96,13 +95,20 @@
     z-index: 1;
   }
 
+  #headerAboutUs {
+    height: 10vh;
+    padding: 10%;
+  }
   .TextoInicio {
     position: relative;
     color: white;
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 20%;
   }
+
+  #aboutUs {
+    color: black;
+  }
+
   .TextoInicio h1 {
     font-size: 3em;
     margin: 0;
@@ -113,18 +119,17 @@
     margin-top: 1em;
   }
 
-
   /* Sección de imágenes */
   .primeraSeccion {
     background-color: #dbc5f3;
   }
 
-  .primerTitulo{
+  .primerTitulo {
     margin-left: 9%;
     padding-top: 50px;
   }
 
-  .galeriaServicios{
+  .galeriaServicios {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -132,12 +137,12 @@
     padding: 20px;
   }
 
-  .galeriaServicios img{
+  .galeriaServicios img {
     width: 20%;
     height: auto;
     transition: transform 0.3s ease;
   }
-    
+
   .imagenhover {
     position: relative;
     display: inline-block;
@@ -151,7 +156,6 @@
     height: auto;
     transition: filter 0.3s ease;
     border-radius: 25px;
-
   }
 
   .overlay2 {
@@ -160,17 +164,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0; 
-    transition: opacity 1s ease; 
+    opacity: 0;
+    transition: opacity 1s ease;
     border-radius: 25px;
   }
 
-  .overlay2 p{
+  .overlay2 p {
     margin: 25px;
     font-size: 1vw;
     text-align: justify;
@@ -178,7 +182,6 @@
 
   .imagenhover:hover img {
     filter: brightness(50%) blur(5px);
-    
   }
 
   .imagenhover:hover .overlay2 {
@@ -188,9 +191,6 @@
     transform: scale(1.05);
     cursor: pointer;
   }
-
-
-
 
   /* Footer */
   footer {
