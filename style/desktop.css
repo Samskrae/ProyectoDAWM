@@ -161,7 +161,9 @@
     margin: 100px 50px 0px 100px;
   }
   .seccionSugerencias h2 {
-    margin: 2% 5%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 2em;
   }
   .sugerencias {
     display: flex;
@@ -297,7 +299,9 @@
     margin: 100px 50px 100px 100px;
   }
   .sectionOpiniones h2 {
-    margin: 2% 5%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 2em;
   }
 
   .opiniones {

@@ -95,6 +95,13 @@
     z-index: 1;
   }
 
+  .headerInicio {
+    margin-top: 400px;
+    margin-bottom: 400px;
+  }
+  .gif {
+    display: none;
+  }
   #headerAboutUs {
     height: 10vh;
     padding: 10%;
@@ -112,6 +119,7 @@
   .TextoInicio h1 {
     font-size: 3em;
     margin: 0;
+    text-align: center;
   }
 
   .TextoInicio h3 {
@@ -122,11 +130,12 @@
   /* Sección de imágenes */
   .primeraSeccion {
     background-color: #dbc5f3;
+    padding-bottom: 15px;
   }
 
   .primerTitulo {
-    margin-left: 9%;
     padding-top: 50px;
+    text-align: center;
   }
 
   .galeriaServicios {
@@ -192,6 +201,68 @@
     cursor: pointer;
   }
 
+  .primeraSeccion h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+  }
+  .aboutUsPS {
+    display: flex;
+    margin: 10px 200px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    height: 30vh;
+  }
+  .aboutUsPS img {
+    height: 30vh;
+    border-radius: 25px;
+  }
+  .aboutUsPS p {
+    font-size: 1.5vw;
+  }
+
+  .FAQ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+  }
+  .FAQ h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+  }
+
+  .pregunta {
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #dbc5f3;
+  }
+
+  .pregunta_encabezado h3 {
+    font-size: 1.5em;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .respuesta {
+    height: 0;
+    opacity: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+  }
+
+  .respuesta.activo {
+    height: auto;
+    opacity: 1;
+    padding-top: 1em;
+    font-size: 1.2em;
+    margin: 0px 100px;
+  }
   /* Footer */
   footer {
     background-color: #f2f2f2;
