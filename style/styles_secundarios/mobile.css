@@ -179,7 +179,6 @@
     border-radius: 25px;
   }
   .aboutUsPS p {
-    font-size: 1.5em;
     text-align: justify;
   }
 
@@ -206,7 +205,6 @@
   }
 
   .pregunta_encabezado h3 {
-    font-size: 1.5em;
     margin: 0;
     cursor: pointer;
   }
