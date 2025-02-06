@@ -212,7 +212,7 @@
     padding: 50px;
     background-color: white;
     border-radius: 25px;
-    height: 30vh;
+    height: auto;
   }
   .aboutUsPS img {
     height: 30vh;
