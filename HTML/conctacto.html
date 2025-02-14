@@ -55,7 +55,7 @@
     </header>
 
     <section class="primeraSeccion">
-        <h1>Formulario</h1>
+        <h1>Contactanos</h1>
 
         <div class="aboutUsPS">
             <p>
@@ -68,6 +68,38 @@
 
             </p>
 
+        </div>
+        <div class="formulario">
+            <h3>Formulario de contacto</h3>
+            <form action="#">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="appellido">Apellido:</label><br>
+                <input type="text" id="appellido" name="appellido" required><br>
+                <label for="correo">Correo electrónico: </label><br>
+                <input type="email" name="correo" id="correo" required><br>
+                <label for="asunto">Asunto de contacto: </label><br>
+                <input type="text" required><br>
+                <label for="departamento">Tópico: </label><br>
+                <select id="departamento" name="opcion" required>
+                    <option value="opcion1">Enviar curriculum</option>
+                    <option value="opcion2">Reportar usuario</option>
+                    <option value="opcion3">Reportar error</option>
+                    <option value="opcion4">Problemas con el pago</option>
+                    <option value="opcion5">Problemas con los viajes</option>
+                    <option value="opcion6">Otros</option>
+                </select><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" cols="160" rows="10" required></textarea><br>
+                <label for="archivo">Adjuntar Archivo: </label><br>
+                <input type="file" id="archivo" name="archivo" required><br>
+                <br>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+            
         </div>
     </section>
 
