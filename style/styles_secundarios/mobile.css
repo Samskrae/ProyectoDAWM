@@ -224,6 +224,59 @@
     display: block;
   }
 
+  .formulario {
+    background-color: #a169de;
+    width: 75%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  form select {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  form textarea {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  form button {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #9154d9;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
   /* Footer */
   footer {
     background-color: #f2f2f2;
