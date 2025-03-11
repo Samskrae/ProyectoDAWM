@@ -1,0 +1,271 @@
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+    .navLinks {
+      gap: 20px;
+    }
+  
+    .navButton {
+      border-radius: 45%;
+  
+    }
+    .navButton p {
+      display: none;
+    }
+    .navButton i {
+      display: inline;
+    }
+  
+    /* Sección Bienvenida */
+    .bienvenida h1 {
+      width: 80%;
+    }
+    .bienvenidaLogo {
+      width: 25%;
+    }
+    #bienvenidaButton {
+      width: 20%;
+      height: auto;
+    }
+  
+    .BienvenidaButton2 {
+      display: none;
+    }
+    .BienvenidaButton1 {
+      display: inline;
+    }
+    /* Fondo Bienvenida */
+    .fondo::before {
+      backdrop-filter: blur(3px);
+    }
+  
+    /* Sugerencias */
+    .seccionSugerencias {
+      margin: auto;
+    }
+  
+    /* .seccionSugerencias h2 {
+      margin: 5% 5%;
+    } */
+    .sugerencias {
+      flex-direction: column;
+    }
+    .sugerenciasContainer {
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+      width: 100%;
+    }
+  
+    .texto {
+      font-size: 1.3em;
+    }
+  
+    .saberMas {
+      padding: 10px;
+      width: 100%;
+    }
+  
+    /* Descargar App */
+    .cuadroDescarga {
+      width: 90%;
+      background-color: #c7a3e9;
+      margin: 50px;
+      border-radius: 25px;
+      min-height: 30vh;
+    }
+  
+    .areaTexto h1 {
+      margin-bottom: 2px;
+    }
+    .areaTexto p {
+      font-size: 2vw;
+    }
+  
+    .botonesDescargar {
+      margin-top: 25px;
+      display: flex;
+      gap: 10px;
+    }
+  
+    /* Opiniones */
+  
+    .sectionOpiniones h2 {
+      margin: 5% 5%;
+    }
+  
+    .opiniones {
+      flex-direction: column;
+    }
+  
+    .opinion {
+      width: 90%;
+      margin: auto auto 2% auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* Barra de nav */
+    nav {
+      bottom: 0;
+      border-radius: 25px 25px 0 0;
+    }
+    #navIcon {
+      display: none;
+    }
+    .navLinks {
+      width: 100%;
+      gap: 50px;
+    }
+    .navLinks a {
+      font-size: 1.5em;
+    }
+    .navLinks a i {
+        display: inline;
+      }
+    .navLinks a span {
+      display: none;
+    }
+    .navButton {
+      display: none;
+    }
+    .navButton p {
+      display: none;
+    }
+  
+    /* Sección Bienvenida */
+    .bienvenida {
+      padding-top: 50px;
+    }
+    .bienvenida h1 {
+      font-size: 25px;
+      width: 80%;
+    }
+    .bienvenida h3 {
+      font-size: 15px;
+    }
+    .bienvenidaLogo {
+      width: 65%;
+      height: auto;
+    }
+    #bienvenidaButton {
+      width: 50%;
+    }
+  
+    .BienvenidaButton2 {
+      display: none;
+    }
+    .BienvenidaButton1 {
+      display: inline;
+    }
+
+    /* Sugerencias */
+    .seccionSugerencias h2 {
+      margin: 5% 5%;
+    }
+    .sugerencias {
+      flex-direction: column;
+    }
+    .sugerenciasContainer {
+      min-height: 1vh;
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+      width: 75%;
+    }
+    .sugerenciasLogo {
+      width: 35%;
+    }
+    .texto {
+      width: 65%;
+    }
+  
+    .saberMas {
+      width: 100%;
+    }
+  
+    /* Descargar App */
+    .cuadroDescarga {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #c7a3e9;
+      margin: 50px;
+      border-radius: 25px;
+      height: 45vh;
+    }
+    .cuadroDescarga img {
+      display: none;
+    }
+  
+    .areaTexto {
+      width: 80%;
+      text-align: justify;
+      margin-left: 0px;
+    }
+    .areaTexto h1 {
+      font-size: 1em;
+      margin-bottom: 2px;
+    }
+    .areaTexto p {
+      font-size: 1em;
+    }
+  
+
+    .botonesDescargar {
+      margin-top: 25px;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .areaTexto a i {
+      font-size: 10em;
+    }
+    .areaTexto a span {
+      display: none;
+    }
+  
+    /* Opiniones */
+  
+    .sectionOpiniones h2 {
+      margin: 5% 5%;
+    }
+  
+    .opiniones {
+      flex-direction: column;
+      padding: 0px 20px;
+      width: 90%;
+    }
+  
+    .opinion {
+      padding: 15px;
+      width: 90%;
+      margin: auto auto 2% auto;
+    }
+
+    .resena p {
+      font-size: 0.7em;
+    }
+  
+    /* Footer */
+    footer {
+      padding: 15px 15px 100px 15px;
+    }
+    .footerImg {
+      width: 40%;
+    }
+    .footerImg img {
+      width: 50%;
+    }
+    .areaTextoFooter {
+      text-align: left;
+      gap: 10%;
+      font-size: 0.8em;
+    }
+    .areaTextoFooter li {
+      margin-bottom: 10px;
+    }
+  }
+  

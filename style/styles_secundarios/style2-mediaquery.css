@@ -1,0 +1,284 @@
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to bottom, #dbc5f3, #dbc5f3, #c7a3e9);
+  }
+
+  .navLinks {
+    gap: 20px;
+  }
+
+  .navButton {
+    border-radius: 45%;
+  }
+  .navButton p {
+    display: none;
+  }
+  .navButton i {
+    display: inline;
+  }
+
+  .headerInicio {
+    margin: auto;
+  }
+
+  .TextoInicio {
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  #headerAboutUs {
+    height: auto;
+    padding: auto;
+  }
+
+  .TextoInicio {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .TextoInicio h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  .TextoInicio img {
+    height: 30vh;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px white;
+    display: inline;
+  }
+  /* Sección de imágenes */
+  .primeraSeccion {
+    padding: auto;
+  }
+  .primerTitulo {
+    margin-left: 9%;
+    padding-top: 50px;
+  }
+  .galeriaServicios {
+    flex-direction: column;
+  }
+
+  .galeriaServicios img {
+    width: 20%;
+    height: auto;
+  }
+
+  .imagenhover {
+    position: relative;
+    display: flex;
+    width: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  .imagenhover img {
+    padding: 10px;
+    width: 40%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .overlay2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+  }
+
+  .overlay2 p {
+    margin: 25px;
+    font-size: 2vw;
+    text-align: justify;
+  }
+
+  .aboutUsPS {
+    flex-direction: column;
+    margin: 10px 90px;
+  }
+  .aboutUsPS img {
+    margin-top: 20px;
+    height: auto;
+    border-radius: 25px;
+  }
+  .aboutUsPS p {
+    text-align: justify;
+  }
+
+  .pregunta {
+    background-color: white;
+  }
+
+  .respuesta {
+    display: none;
+  }
+
+  .respuesta.activo {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to bottom, #dbc5f3, #dbc5f3, #c7a3e9);
+  }
+
+  /* Barra de nav */
+  nav {
+    bottom: 0;
+    top: auto;
+    border-radius: 25px 25px 0 0;
+  }
+  #navIcon {
+    display: none;
+  }
+  .navLinks {
+    width: 100%;
+    gap: 50px;
+  }
+  .navLinks a {
+    font-size: 1.5em;
+  }
+  .navLinks a i {
+    display: inline;
+  }
+  .navLinks a span {
+    display: none;
+  }
+  .navButton {
+    display: none;
+  }
+  .navButton p {
+    display: none;
+  }
+
+  video {
+    height: 35%;
+  }
+
+  #aboutUs {
+    color: black;
+  }
+
+  .headerInicio {
+    margin: auto;
+  }
+  .gif {
+    display: inline;
+  }
+  #headerAboutUs {
+    height: auto;
+    padding: auto;
+  }
+  .TextoInicio {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .TextoInicio img {
+    height: 30vh;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px white;
+  }
+  .TextoInicio h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+
+  /* Sección de imágenes */
+  .primeraSeccion {
+    background-color: #dbc5f3;
+  }
+  .primerTitulo {
+    margin-left: auto;
+  }
+  .galeriaServicios {
+    flex-direction: column;
+  }
+
+  .imagenhover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  .imagenhover img {
+    padding: 10px;
+    width: 95%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .overlay2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+  }
+
+  .overlay2 p {
+    font-size: 3vw;
+  }
+
+  .aboutUsPS {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 15px;
+  }
+  .aboutUsPS img {
+    margin-top: 20px;
+    height: auto;
+  }
+  .aboutUsPS p {
+    text-align: justify;
+    font-size: 1.3em;
+  }
+
+
+
+  .pregunta {
+    background-color: white;
+  }
+
+
+  .respuesta {
+    display: none;
+  }
+
+  .respuesta.activo {
+    
+    margin: 0px 10px;
+    display: block;
+  }
+
+
+     /* Footer */
+     footer {
+        padding: 15px 15px 100px 15px;
+      }
+      .footerImg {
+        width: 40%;
+      }
+      .footerImg img {
+        width: 50%;
+      }
+      .areaTextoFooter {
+        text-align: left;
+        gap: 10%;
+        font-size: 0.8em;
+      }
+      .areaTextoFooter li {
+        margin-bottom: 10px;
+      }
+}
